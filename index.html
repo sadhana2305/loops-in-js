@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<body>
+    <script>
+        //task 1
+        console.log(" Print Numbers from 1 to 10");
+        for (let i = 1; i <= 10; i++) {
+        console.log(i);
+        }
+        //task 2
+        console.log(" Print Even Numbers from 1 to 20");
+        for (let i = 1; i <= 20; i++) {
+             if (i % 2 === 0) {
+                 console.log(i);
+             }
+        }
+        // task 3
+        console.log(" Print Multiples of 5 up to 50");
+        for (let i = 1; i <= 50; i++) {
+             if (i % 5 === 0) {
+                 console.log(i);
+             }
+        }
+        // task 4
+        console.log("Sum of Numbers from 1 to 100");
+        let sum = 0;
+
+        for (let i = 1; i <= 100; i++) {
+            sum += i;
+        }
+        
+        console.log("The sum of numbers from 1 to 100 is:", sum);
+        // task 5
+        console.log("the factorial of a given number.");
+        let number = +prompt("Enter a number to calculate its factorial:");
+        let factorial = 1;
+
+        for (let i = 1; i <= number; i++) {
+             factorial *= i;
+        }
+        console.log("The factorial of " + number + " is:", factorial);
+        // task 6
+        console.log(" Print Numbers in Reverse Order");
+        for (let i = 10; i >= 1; i--) {
+             console.log(i);
+        }
+        // task 7
+        console.log(" Print the Alphabet");
+        for (let i = 65; i <= 90; i++) {
+            console.log(String.fromCharCode(i));
+        }
+
+
+
+    </script>
+</body>
+</html>
